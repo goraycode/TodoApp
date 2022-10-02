@@ -35,7 +35,7 @@ const TodoAdd = ({ onNewTodo }) => {
         type="text"
         name="description"
         id="description"
-        className="border-b-2 border-blue-300 outline-none w-full focus:border-blue-600"
+        className="border-b-2 border-blue-300 outline-none w-full bg-transparent caret-white text-white focus:border-blue-600"
         placeholder="¿Qué planeas hacer?"
         autoComplete="off"
         value={description}

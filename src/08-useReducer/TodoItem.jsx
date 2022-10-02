@@ -1,9 +1,9 @@
 const TodoItem = ({ description, id, done, onDeleteTodo, onToggleTodo }) => {
   return (
     <li
-      className={`bg-gray-200 p-3 
-      rounded-md flex justify-between shadow-md shadow-gray-300 ${
-        done ? "bg-green-500" : ""
+      className={`bg-gray-100 p-3 
+      rounded-md flex justify-between shadow-md shadow-gray-900 ${
+        done ? "bg-green-300" : ""
       }`}
     >
       {description}

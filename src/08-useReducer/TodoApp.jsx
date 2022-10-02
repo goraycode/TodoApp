@@ -12,10 +12,10 @@ const TodoApp = () => {
   } = useTodos();
 
   return (
-    <div className="container mx-auto mt-5">
-      <h1 className="text-3xl text-center font-bold">Todo APP</h1>
-      <p className="text-center text-gray-500">Todos {todosCount()}</p>
-      <p className="text-center text-gray-500">
+    <main className="container mx-auto mt-5 w-11/12 md:w-full">
+      <h1 className="text-4xl text-center text-white font-bold">Todo APP</h1>
+      <p className="text-center text-gray-300">Todos {todosCount()}</p>
+      <p className="text-center text-gray-300">
         Pendientes {pendingTodosCount()}
       </p>
       <TodoAdd onNewTodo={handleNewTodo} />
@@ -24,7 +24,7 @@ const TodoApp = () => {
         onDeleteTodo={handleDeleteTodo}
         onToggleTodo={handleToggleTodo}
       />
-    </div>
+    </main>
   );
 };
 
