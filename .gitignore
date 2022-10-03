@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+01-useState
+02-useEffect
+03-Examples
+04-useRef
+05-useLayoutEfect
+06-Memo
+07-tarea-memo
+09-useContext
+
 
 # Editor directories and files
 .vscode/*
